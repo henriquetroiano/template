@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas: "contact data";
+}
+
+/* body div {
+  border: 1px solid black;
+} */
+
+div.personalData {
+  grid-area: contact;
+  background-color: rgba(94, 206, 94, 0.829);
+}
+
+div.interface {
+  display: grid;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "search"
+    "articles";
+}
+
+div.interface .search {
+  grid-area: search;
+  background: rgba(245, 245, 245, 0.712);
+}
+
+div.interface .articles {
+  grid-area: articles;
+}

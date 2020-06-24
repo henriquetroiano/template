@@ -1,0 +1,44 @@
+.interface .articles {
+  display: flex;
+  flex-direction: column;
+}
+
+.interface .articles .article {
+  display: flex;
+  flex-direction: row;
+  padding: 3vmax;
+  width: 70%;
+  align-self: center;
+}
+
+.interface .articles .article div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1vmax;
+}
+
+.interface .articles .article div img {
+  width: 10vmax;
+  height: auto;
+}
+
+.interface .articles .article div h3 {
+  font-size: 1vmax;
+}
+.interface .articles .article div p {
+  font-size: 0.8vmax;
+  font-weight: 300;
+  padding: 0.8vmax 0;
+}
+
+.interface .articles .article div h4 {
+  /* border: 1px solid black; */
+  font-size: 0.9vmax;
+  font-weight: 400;
+}
+
+.interface .articles .article div span {
+  padding-top: 0.5vmax;
+  color: rgba(94, 206, 94, 0.829);
+  cursor: pointer;
+}

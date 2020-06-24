@@ -1,0 +1,110 @@
+.personalData {
+  display: grid;
+  grid-template-areas:
+    "presentation"
+    "about";
+  grid-template-rows: 3fr 1fr;
+  color: white;
+  padding: 2rem 1.5rem 0 1.5rem;
+  --webkit-font-smoothing: antialiased;
+  height: 100vh;
+}
+
+.personalData .presentation {
+  grid-area: presentation;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 2rem 0;
+}
+
+.personalData .presentation h3 {
+  font-size: 2.5vmin;
+  text-align: center;
+}
+
+.personalData .presentation img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.personalData .presentation h2 {
+  font-size: 2vmin;
+  font-weight: 300;
+  text-align: center;
+}
+
+.personalData .presentation h2 a {
+  color: white;
+}
+
+.personalData .presentation div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.personalData .presentation div img {
+  border-radius: 0;
+  width: 4vmin;
+}
+
+.personalData .about {
+  border-top: 1px solid rgba(0, 0, 0, 0.192);
+
+  grid-area: about;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0 0.2rem 0;
+}
+
+.personalData .about div {
+  /* border: 1px solid black; */
+  width: 50%;
+  margin-left: 25%;
+  padding: 5%;
+  cursor: pointer;
+}
+
+.personalData .about div:hover img {
+  opacity: 0.6;
+}
+
+.personalData .about div:hover a {
+  color: black;
+  opacity: 0.6;
+}
+
+.personalData .about div img {
+  /* border: 1px solid black; */
+  width: 2vmin;
+  margin-right: 5%;
+}
+
+.personalData .about div a {
+  /* border: 1px solid black; */
+  text-align: justify;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 2vmin;
+  color: white;
+}
+
+.personalData .about p {
+  /* border: 1px solid black; */
+
+  align-self: center;
+  color: black;
+  padding: 0.7rem 1rem;
+  background-color: rgba(20, 70, 20, 0.342);
+  border-radius: 6px;
+  color: white;
+  font-size: 2vmin;
+  font-weight: 500;
+  width: 50%;
+  text-align: center;
+}
