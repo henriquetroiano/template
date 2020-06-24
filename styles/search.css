@@ -13,26 +13,26 @@
   font-size: 1vmax;
 }
 
-.interface .search fieldset {
+.interface .search form {
   border: none;
   padding: 2vh 0;
   width: 35%;
 }
 
-.interface .search fieldset input {
+.interface .search form input {
   height: 2.5vmax;
   width: 75%;
   border: 1px solid rgba(0, 0, 0, 0.336);
-  border-radius: 8px;
+  border-radius: 5px;
   padding: 0 1vmax;
 }
 
-.interface .search fieldset button {
+.interface .search form button {
   height: 2.5vmax;
   width: 23%;
   background-color: rgba(94, 206, 94, 0.829);
-  border: none;
-  border-radius: 8px;
+  border: 1px solid rgba(94, 206, 94, 0.829);
+  border-radius: 5px;
   color: white;
   font-weight: 500;
   font-size: 1vmax;
